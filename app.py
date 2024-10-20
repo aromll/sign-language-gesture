@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-import joblib 
 import tensorflow as tf 
 import os# or whatever you're using to load your model
 
