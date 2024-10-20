@@ -37,6 +37,7 @@ model = tf.keras.models.load_model('hand_model5.h5')  # Ensure this file exists
 @app.route('/')
 def index():
     return "Welcome to the Sign Language Prediction API"
+
 # Define a route for prediction
 @app.route('/predict', methods=['POST'])
 def predict():
